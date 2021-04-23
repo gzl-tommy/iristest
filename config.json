@@ -1,0 +1,21 @@
+{
+  "app_name": "github.com/gzl-tommy/iristest",
+  "port": "8080",
+  "static_path": "/static",
+  "data_base": {
+    "drive": "mysql",
+    "host": "192.168.5.101",
+    "port": "3306",
+    "user": "root",
+    "pwd": "123456",
+    "database": "cmsTest"
+  },
+  "redis": {
+    "net_work": "tcp",
+    "addr": "192.168.5.101",
+    "port": "6379",
+    "passwword": "",
+    "prefix": "cmsTest_"
+  },
+  "mode": "dev"
+}
